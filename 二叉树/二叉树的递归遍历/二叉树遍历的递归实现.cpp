@@ -1,6 +1,6 @@
-#include<stdio.h>
-#include<stdlib.h>
-typedef struct BTNode
+*include<stdio.h>
+*include<stdlib.h>
+typedef*struct*BTNode
 {
 	char data;
 	struct BTNode *pLchild;
@@ -16,15 +16,15 @@ int main()
 {
 	BTree pTree = create_tree();
 
-	printf("µÝ¹éÊµÏÖÇ°Ðò±éÀú½á¹û£º");
+	printf("ï¿½Ý¹ï¿½Êµï¿½ï¿½Ç°ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
 	pre_traverse(pTree);
 	printf("\n");
 
-	printf("µÝ¹éÊµÏÖÖÐÐò±éÀú½á¹û£º");
+	printf("ï¿½Ý¹ï¿½Êµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
 	in_traverse(pTree);
 	printf("\n");
 
-	printf("µÝ¹éÊµÏÖºóÐò±éÀú½á¹û£º");
+	printf("ï¿½Ý¹ï¿½Êµï¿½Öºï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
 	beh_traverse(pTree);
 	printf("\n");
 	
@@ -61,7 +61,7 @@ BTree create_tree()
 }
 
 /*
-Ç°Ðò±éÀúµÄµÝ¹éÊµÏÖ
+Ç°ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÄµÝ¹ï¿½Êµï¿½ï¿½
 */
 void pre_traverse(BTree pTree)
 {
@@ -76,7 +76,7 @@ void pre_traverse(BTree pTree)
 }
 
 /*
-ÖÐÐò±éÀúµÄµÝ¹éÊµÏÖ
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÄµÝ¹ï¿½Êµï¿½ï¿½
 */
 void in_traverse(BTree pTree)
 {
@@ -91,7 +91,7 @@ void in_traverse(BTree pTree)
 }
 
 /*
-ºóÐò±éÀúµÄµÝ¹éÊµÏÖ
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÄµÝ¹ï¿½Êµï¿½ï¿½
 */
 void beh_traverse(BTree pTree)
 {
@@ -104,3 +104,4 @@ void beh_traverse(BTree pTree)
 		printf("%c ",pTree->data);
 	}
 }
+ 
